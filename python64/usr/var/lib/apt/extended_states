@@ -1,0 +1,24 @@
+Package: libcrypt
+Architecture: i686
+Auto-Installed: 1
+
+Package: libsqlite
+Architecture: i686
+Auto-Installed: 1
+
+Package: libffi
+Architecture: i686
+Auto-Installed: 1
+
+Package: ncurses-ui-libs
+Architecture: i686
+Auto-Installed: 1
+
+Package: gdbm
+Architecture: i686
+Auto-Installed: 1
+
+Package: libutil
+Architecture: i686
+Auto-Installed: 1
+

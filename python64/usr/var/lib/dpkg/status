@@ -1,0 +1,290 @@
+Package: apt
+Essential: yes
+Status: install ok installed
+Installed-Size: 2644
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 1.4.8-9
+Replaces: apt-transport-https
+Depends: libcurl, liblzma, dpkg, gpgv, libc++, termux-exec
+Conflicts: apt-transport-https
+Description: Front-end for the dpkg package manager
+Homepage: https://packages.debian.org/apt
+
+Package: bash
+Essential: yes
+Status: install ok installed
+Installed-Size: 1200
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 4.4.23-3
+Depends: ncurses, readline, libandroid-support, termux-tools, command-not-found
+Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
+Homepage: https://www.gnu.org/software/bash/
+
+Package: busybox
+Essential: yes
+Status: install ok installed
+Installed-Size: 652
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 1.29.3-1
+Conflicts: coreutils (<< 8.25-4)
+Description: Tiny versions of many common UNIX utilities into a single small executable
+Homepage: https://busybox.net/
+
+Package: ca-certificates
+Status: install ok installed
+Installed-Size: 236
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: all
+Version: 20181205
+Description: Common CA certificates
+Homepage: https://curl.haxx.se/docs/caextract.html
+
+Package: command-not-found
+Status: install ok installed
+Installed-Size: 108
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 1.36
+Description: Suggest installation of packages in interactive shell sessions
+Homepage: https://termux.com
+
+Package: dash
+Essential: yes
+Status: install ok installed
+Installed-Size: 192
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 0.5.10.2-1
+Description: Small POSIX-compliant implementation of /bin/sh
+Homepage: http://gondor.apana.org.au/~herbert/dash/
+
+Package: dpkg
+Essential: yes
+Status: install ok installed
+Installed-Size: 820
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 1.19.2
+Depends: busybox, liblzma
+Description: Debian package management system
+Homepage: https://packages.debian.org/dpkg
+
+Package: gdbm
+Status: install ok installed
+Installed-Size: 212
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 1.18.1
+Description: Library of database functions that use extensible hashing
+Homepage: https://www.gnu.org.ua/software/gdbm/
+
+Package: gpgv
+Status: install ok installed
+Installed-Size: 368
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 2.2.12
+Depends: libbz2, libgcrypt, libgpg-error
+Conflicts: gnupg (<= 1.4.21)
+Description: GNU privacy guard - signature verification tool
+Homepage: https://www.gnupg.org/
+
+Package: libandroid-support
+Essential: yes
+Status: install ok installed
+Installed-Size: 176
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 24
+Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
+Homepage: https://github.com/termux/libandroid-support
+
+Package: libbz2
+Status: install ok installed
+Installed-Size: 80
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 1.0.6-1
+Description: BZ2 format compression library
+Homepage: http://www.bzip.org/
+
+Package: libc++
+Essential: yes
+Status: install ok installed
+Installed-Size: 976
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 18
+Description: C++ Standard Library
+Homepage: https://libcxx.llvm.org/
+
+Package: libcrypt
+Status: install ok installed
+Installed-Size: 48
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 0.2-1
+Depends: openssl
+Description: A crypt(3) implementation
+Homepage: http://michael.dipperstein.com/crypt/
+
+Package: libcurl
+Status: install ok installed
+Installed-Size: 412
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 7.63.0
+Depends: openssl (>= 1.1.1), libnghttp2
+Conflicts: apt (<< 1.4.8-8)
+Description: Easy-to-use client-side URL transfer library
+Homepage: https://curl.haxx.se/
+
+Package: libffi
+Status: install ok installed
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 3.2.1-2
+Description: Library providing a portable, high level programming interface to various calling conventions
+Homepage: https://sourceware.org/libffi/
+
+Package: libgcrypt
+Status: install ok installed
+Installed-Size: 748
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 1.8.4
+Depends: libgpg-error
+Description: General purpose cryptographic library based on the code from GnuPG
+Homepage: https://www.gnu.org/software/libgcrypt/
+
+Package: libgpg-error
+Status: install ok installed
+Installed-Size: 256
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 1.34
+Description: Small library that defines common error values for all GnuPG components
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
+
+Package: liblzma
+Status: install ok installed
+Installed-Size: 156
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 5.2.4
+Description: XZ-format compression library
+Homepage: https://tukaani.org/xz/
+
+Package: libnghttp2
+Status: install ok installed
+Installed-Size: 144
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 1.36.0
+Description: nghttp HTTP 2.0 library
+Homepage: https://nghttp2.org/
+
+Package: libsqlite
+Status: install ok installed
+Installed-Size: 812
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 3.27.2
+Description: Library implementing a self-contained and transactional SQL database engine
+Homepage: https://www.sqlite.org
+
+Package: libutil
+Status: install ok installed
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 0.4
+Description: Library with terminal functions
+Homepage: https://refspecs.linuxbase.org/LSB_2.1.0/LSB-generic/LSB-generic/libutil.html
+
+Package: ncurses
+Status: install ok installed
+Installed-Size: 608
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 6.1.20181117
+Description: Library for text-based user interfaces in a terminal-independent manner
+Homepage: http://invisible-island.net/ncurses/
+
+Package: ncurses-ui-libs
+Status: install ok installed
+Installed-Size: 112
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 6.1.20181117-1
+Depends: ncurses
+Description: Libraries for terminal user interfaces based on ncurses
+Homepage: http://invisible-island.net/ncurses/
+
+Package: openssl
+Status: install ok installed
+Installed-Size: 2372
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 1.1.1a
+Depends: ca-certificates
+Conflicts: libcurl (<< 7.61.0-1)
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+Homepage: https://www.openssl.org/
+
+Package: python
+Status: install ok installed
+Installed-Size: 21172
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 3.7.3
+Depends: libandroid-support, ncurses, readline, libffi, openssl, libutil, libbz2, libsqlite, gdbm, ncurses-ui-libs, libcrypt, liblzma
+Breaks: python2 (<= 2.7.15)
+Description: Python 3 programming language intended to enable clear programs
+Homepage: https://python.org/
+
+Package: readline
+Status: install ok installed
+Installed-Size: 288
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 7.0.5-2
+Depends: libandroid-support, ncurses
+Description: Library that allow users to edit command lines as they are typed in
+Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
+
+Package: termux-am
+Status: install ok installed
+Installed-Size: 60
+Maintainer: Michal Bednarski @michalbednarski
+Architecture: all
+Version: 0.2
+Conflicts: termux-tools (<< 0.51)
+Description: Android Oreo-compatible am command reimplementation
+Homepage: https://github.com/michalbednarski/TermuxAm
+
+Package: termux-exec
+Status: install ok installed
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: i686
+Version: 0.3
+Description: An execve() wrapper to make /bin and /usr/bin shebangs work
+Homepage: https://github.com/termux/termux-exec
+
+Package: termux-tools
+Essential: yes
+Status: install ok installed
+Installed-Size: 124
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: all
+Version: 0.60
+Depends: termux-am
+Conflicts: procps (<< 3.3.15-2)
+Description: Basic system tools for Termux
+Homepage: https://termux.com/
+

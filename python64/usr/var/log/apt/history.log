@@ -1,0 +1,5 @@
+
+Start-Date: 2019-04-06  14:14:43
+Commandline: apt install python
+Install: libcrypt:i686 (0.2-1, automatic), libsqlite:i686 (3.27.2, automatic), libffi:i686 (3.2.1-2, automatic), ncurses-ui-libs:i686 (6.1.20181117-1, automatic), gdbm:i686 (1.18.1, automatic), python:i686 (3.7.3), libutil:i686 (0.4, automatic)
+End-Date: 2019-04-06  14:14:54
