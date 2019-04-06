@@ -1,0 +1,22 @@
+com.yoump3 W/System.err: java.io.FileNotFoundException: /data/data/com.yoump3/youtube/lib/python3.7/collections/__pycache__/abc.cpython-37.pyc: open failed: EACCES (Permission denied)
+
+ELIMINAR LIBRERIAS QUE NO SE UTILIZAN... CLARO SI TE VAS POR ESE CAMINO JAJA ;)
+
+1584.youtube.py
+105 http.py
+225 common.py
+1094 youtube.py
+
+README.txt
+line 310 Verbosity / Simulation Options:
+--skip-download 
+
+json dataxd command
+./youtube-dl --skip-download --print-json https://www.youtube.com/watch?v=h_fXySfFmM8
+
+or xd
+./youtube-dl -s -f bestaudio[ext=m4a] -g https://www.youtube.com/watch?v=tLcfAnN2QgY
+./youtube-dl -s -f bestvideo -g https://www.youtube.com/watch?v=tLcfAnN2QgY
+ or xd...
+BETTER, i get the two answers xd, best video mp4 and best audio :D
+./youtube-dl -s -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best' -g URL

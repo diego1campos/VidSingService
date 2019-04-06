@@ -1,0 +1,108 @@
+192.168.0.165
+192.168.42.88
+
+nombres
+-----------------
+DiegoTwitch
+Convergence_Tutorial_TV_
+xd=tut00024_convergence_tutorial_tv
+
+Access-Control-Allow-Origin: https://www.youtube.com
+
+Access-Control-Allow-Origin
+http://192.168.0.165:8080/ws/
+http://192.168.42.88:8080/ws/
+
+VidDiego
+
+SAMSUNG REAL
+------------------------------
+C:\Users\Diego\Documents\AndroidProjects\DroidUPnP-master
+--------
+C:\Program Files (x86)\Google\Chrome\Application>
+chrome.exe --disable-web-security --user-data-dir="C:\Users\Diego\Desktop"
+dpkg-reconfigure keyboard-configuration = configure keyboard ¿can be applied to any terminal/ubuntu or needs X11?
+
+SLDeviceID: 12345
+VendorID: VenderMe
+DeviceName: IE-Client
+GroupID: feiGroup
+ProductID: SMARTDev
+
+
+--- "web"
+SLDeviceID: 12345
+Content-Type: application/json
+ProductID: SMARTDev
+VendorID: VenderMe
+DeviceName: IE-Client
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+
+
+
+Sufijo DNS específico para la conexión: 
+Descripción: Remote NDIS based Internet Sharing Device
+Dirección física: ‎02-0A-33-3C-37-3D
+Habilitado para DHCP: Sí
+Dirección IPv4: 192.168.42.186
+Máscara de subred IPv4: 255.255.255.0
+Concesión obtenida: jueves, 4 de abril de 2019 20:45:36
+La concesión expira: jueves, 4 de abril de 2019 21:45:36
+Puerta de enlace predeterminada IPv4: 192.168.42.129
+Servidor DHCP IPv4: 192.168.42.129
+Servidor DNS IPv4: 192.168.42.129
+Servidor WINS IPv4: 
+Habilitado para NetBios a través de Tcpip: Sí
+Vínculo: dirección IPv6 local: fe80::a9f3:2d1:3e17:c387%17
+Puerta de enlace predeterminada IPv6: 
+
+post
+----
+{
+	"mac": "02:0A:33:3C:37:3D",
+	"ip": "192.168.42.186",
+	"name": "Diego"
+}
+
+
+WORKS EMULATOR!!!
+----------------------------------------
+http://192.168.42.88:8080/ws/app/VidDiego/info
+{
+  "widgetInfo": {
+    "ID": "VidDiego",
+    "Version": "3.7",
+    "Status": "RUNNING",
+    "widgetname": "3.7"
+  }
+}
+
+¿La perdiste? Dedicale "When I was your Man".
+ ¿Quieren volver a intentar? Deicale "Again"
+¿Es tu mejor amiga? Dedicale "Count On me"
+¿no te valora? Dedicale "Grenade"
+¿La tienes a distancia? Dedicale "Long distance"
+¿Duda de tí? "nothin on you"
+¿Piensa que la cambiarás? Dedicale "Rest of my Life"
+¿La regaste y no sabes que hacer? Dedicale "It Will rain"
+¿No sabe que es hermosa? dedicale "Just the way you are"
+¿Es lo mas valioso que tienes? Dedicale Treasure"
+¿no te nota? dedicale "If I knew"
+¿Quieres pedirle matrimonio? Dedicale "Marry you"
+
+TrackMetadata
+RendererFragment
+RendererState [state=
+
+RenderCommand:128
+RenderCommand:118 :o
+
+PATH=/data/data/com.termux/files/usr/bin:/data/data/com.termux/files/usr/bin/applets
+PATH=/data/data/com.vidsing/files/bin
+
+python /data/data/com.vidsing/files/youtube-dl
+
+export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib/
+export LD_LIBRARY_PATH=/data/data/com.vidsing/files/lib
+
+chmod -R 777 /data/data/com.termux/files/usr/
